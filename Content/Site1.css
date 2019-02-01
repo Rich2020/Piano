@@ -1,0 +1,632 @@
+﻿* {
+	margin: 0;
+}
+
+#Content {
+    min-height: 100%;
+
+}
+
+body, html
+{
+    height: 100%;
+    width: 100%;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: whitesmoke !important;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+div
+{
+}
+
+header, footer, nav, section
+{
+    display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset
+{
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea
+{
+    min-height: 75px;
+}
+
+.editor-label
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field
+{
+    margin: 0.5em 0 0 0;
+}
+
+/* styles for validation helpers */
+
+@keyframes validationError
+{
+    from
+    {
+        box-shadow: 0px 0px 10px 0px #FF0000;
+        -webkit-box-shadow: 0px 0px 10px 0px #FF0000;
+        -moz-box-shadow: 0px 0px 10px 0px #FF0000;
+        -ms-box-shadow: 0px 0px 10px 0px #FF0000;
+        -o-box-shadow: 0px 0px 10px 0px #FF0000;
+    }
+
+    to
+    {
+        box-shadow: 0px 0px 1px 0px #FF0000;
+        -webkit-box-shadow: 0px 0px 1px 0px #FF0000;
+        -moz-box-shadow: 0px 0px 1px 0px #FF0000;
+        -ms-box-shadow: 0px 0px 1px 0px #FF0000;
+        -o-box-shadow: 0px 0px 1px 0px #FF0000;
+        border-color: red !important;
+        background-color: #ffeaea;
+        color: #FF0000 !important;
+    }
+}
+
+@-webkit-keyframes validationError /* Safari and Chrome */
+{
+    from
+    {
+        box-shadow: 0px 0px 10px 0px #FF0000;
+        -webkit-box-shadow: 0px 0px 10px 0px #FF0000;
+        -moz-box-shadow: 0px 0px 10px 0px #FF0000;
+        -ms-box-shadow: 0px 0px 10px 0px #FF0000;
+        -o-box-shadow: 0px 0px 10px 0px #FF0000;
+    }
+
+    to
+    {
+        box-shadow: 0px 0px 0px 1px #FF0000;
+        -webkit-box-shadow: 0px 0px 1px 0px #FF0000;
+        -moz-box-shadow: 0px 0px 1px 0px #FF0000;
+        -ms-box-shadow: 0px 0px 1px 0px #FF0000;
+        -o-box-shadow: 0px 0px 1px 0px #FF0000;
+        border-color: red !important;
+        background-color: #ffeaea !important;
+        color: #FF0000 !important;
+    }
+}
+
+
+.field-validation-valid
+{
+    display: none;
+}
+
+input.input-validation-error
+{
+    border-color: red !important;
+    background-color: #ffeaea;
+    box-shadow: 0px 0px 5px 0px #FF0000 inset;
+    -webkit-box-shadow: 0px 0px 5px 0px #FF0000 inset;
+    -moz-box-shadow: 0px 0px 5px 0px #FF0000 inset;
+    -ms-box-shadow: 0px 0px 5px 0px #FF0000 inset;
+    -o-box-shadow: 0px 0px 5px 0px #FF0000 inset;
+    animation: validationError 2s;
+    -webkit-animation: validationError 2s; /* Safari and Chrome */
+}
+
+.validation-summary-errors
+{
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid
+{
+    box-shadow: 0px 0px 5px 0px #000000 inset;
+    -webkit-box-shadow: 0px 0px 5px 0px #000000 inset;
+    -moz-box-shadow: 0px 0px 5px 0px #000000 inset;
+    -ms-box-shadow: 0px 0px 5px 0px #000000 inset;
+    -o-box-shadow: 0px 0px 5px 0px #000000 inset;
+    color: #a9a9bc;
+}
+
+.RegistrationFailedErrorMessage
+{
+    opacity: 0;
+    width: 250px;
+}
+
+.RegistrationFailedErrorMessageAmimate
+{
+    animation: RegistrationFailed 2s;
+    -webkit-animation: RegistrationFailed 2s; /* Safari and Chrome */
+}
+
+@keyframes RegistrationFailed
+{
+    from
+    {
+        opacity: 0;
+    }
+
+    to
+    {
+        opacity: 1;
+        background-color: #ffeaea;
+        color: red;
+        text-align: center;
+    }
+}
+
+@-webkit-keyframes RegistrationFailed
+{
+    from
+    {
+        opacity: 0;
+    }
+
+    to
+    {
+        opacity: 1;
+        background-color: #ffeaea;
+        color: red;
+        text-align: center;
+    }
+}
+
+/* end of styles for validation helpers */
+
+
+
+
+#loginWrapper
+{
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    box-shadow: 0px 0px 10px 0px #000000;
+    -webkit-box-shadow: 0px 0px 10px 0px #000000;
+    -moz-box-shadow: 0px 0px 10px 0px #000000;
+    -ms-box-shadow: 0px 0px 10px 0px #000000;
+    -o-box-shadow: 0px 0px 10px 0px #000000;
+    border: 1px solid silver;
+}
+
+
+#registerWrapper
+{
+    overflow: hidden;
+    width: 400px;
+    box-shadow: 0px 0px 10px 0px #000000;
+    -webkit-box-shadow: 0px 0px 10px 0px #000000;
+    -moz-box-shadow: 0px 0px 10px 0px #000000;
+    -ms-box-shadow: 0px 0px 10px 0px #000000;
+    -o-box-shadow: 0px 0px 10px 0px #000000;
+    border: 1px solid silver;
+}
+
+#loginWrapper form, #RegisterForm form
+{
+    margin: 0px;
+}
+
+#loginWrapper .header, #RegisterForm .header
+{
+    background: url(images/LoginForm/header_bg.png) no-repeat top;
+    height: 63px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 1px 1px rgba(53,16,56,0.5);
+    color: #fff;
+    font-weight: bold;
+}
+
+#loginWrapper .formbody, #RegisterForm .formbody
+{
+    width: 400px;
+}
+
+    #loginWrapper .formbody p, #RegisterForm .formbody p
+    {
+        margin: 0px;
+    }
+
+#loginWrapper form .text, #RegisterForm form .text
+{
+    width: 335px;
+    height: 52px;
+    margin: 20px 0 0 20px;
+    outline: none;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#loginWrapper form .submit, #RegisterForm form .submit
+{
+    width: 100px;
+    height: 40px;
+    margin: 20px 20px 0 22px;
+    background: url(images/LoginForm/login.png) no-repeat;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(53,16,56,0.5);
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+}
+
+#loginWrapper form a, #RegisterForm form a
+{
+    text-decoration: none;
+    color: #a9a9bc;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(255,255,255,0.75);
+}
+
+.email
+{
+    background: url(images/LoginForm/username.png) no-repeat;
+}
+
+.password
+{
+    background: url(images/LoginForm/password.png) no-repeat;
+}
+
+#LoginButton, #RegisterButton, #updateAccount
+{
+    float: right;
+    margin: 20px;
+}
+
+#RegisterForm
+{
+    display: none;
+    opacity: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#LoginForm
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.SplashWrapper
+{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 460px;
+    padding: 30px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+
+#Logo
+{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.NavigaionStrip
+{
+     position: fixed;
+    float: left;
+    top: 0px;
+    width: 100%;
+    margin: 0;
+    background-image: -moz-linear-gradient(top, rgba(106, 104, 104, 1) 0%, rgba(75, 73, 73, 1) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(106, 104, 104, 1)), color-stop(100%,rgba(75, 73, 73, 1)));
+    background-image: -webkit-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: -o-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: linear-gradient(to bottom, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6A6868', endColorstr='#4B4949',GradientType=0 );
+    background-color: #343232;
+    height: 75px;
+    box-shadow: 0px 0px 0px 0px #ffffff inset;
+    -webkit-box-shadow: 0px 0px 0px 0px #ffffff inset;
+    -moz-box-shadow: 0px 0px 0px 0px #ffffff inset;
+    -ms-box-shadow: 0px 0px 0px 0px #ffffff inset;
+    -o-box-shadow: 0px 0px 0px 0px #ffffff inset;
+    padding-left: 10px;
+}
+
+    .NavigaionStrip a, #UserOptions a
+    {
+        float: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 56px;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-shadow: 0px 0px 10px #000;
+        color: #FFFFFF;
+        font-size: 22px;
+        text-decoration: none;
+        /* Internet Explorer 10 */
+        display: -ms-flexbox;
+        -ms-flex-pack: center;
+        -ms-flex-align: center;
+        /* Firefox */
+        display: -moz-box;
+        -moz-box-pack: center;
+        -moz-box-align: center;
+        /* Safari, Opera, and Chrome */
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+        /* W3C */
+        display: box;
+        box-pack: center;
+        box-align: center;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+        .NavigaionStrip a:hover, #UserOptions a:hover
+        {
+            background-image: -moz-linear-gradient(top, rgba(75, 73, 73, 1) 0%, rgba(106, 104, 104, 1) 100%);
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(75, 73, 73, 1)), color-stop(100%,rgba(106, 104, 104, 1)));
+            background-image: -webkit-linear-gradient(top, rgba(75, 73, 73, 1) 0%,rgba(106, 104, 104, 1) 100%);
+            background-image: -o-linear-gradient(top, rgba(75, 73, 73, 1) 0%,rgba(106, 104, 104, 1) 100%);
+            background-image: -ms-linear-gradient(top, rgba(75, 73, 73, 1) 0%,rgba(106, 104, 104, 1) 100%);
+            background-image: linear-gradient(to bottom, rgba(75, 73, 73, 1) 0%,rgba(106, 104, 104, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4B4949', endColorstr='#6A6868',GradientType=0 );
+            box-shadow: 0px 0px 10px 0px #000000 inset;
+            -webkit-box-shadow: 0px 0px 10px 0px #000000 inset;
+            -moz-box-shadow: 0px 0px 10px 0px #000000 inset;
+            -ms-box-shadow: 0px 0px 10px 0px #000000 inset;
+            -o-box-shadow: 0px 0px 10px 0px #000000 inset;
+        }
+/*
+Navigation buttons    
+*/
+
+#Footer
+{
+    margin: 0;
+    background-image: -moz-linear-gradient(top, rgba(106, 104, 104, 1) 0%, rgba(75, 73, 73, 1) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(106, 104, 104, 1)), color-stop(100%,rgba(75, 73, 73, 1)));
+    background-image: -webkit-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: -o-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: linear-gradient(to bottom, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6A6868', endColorstr='#4B4949',GradientType=0 );
+    background-color: #343232;
+    height: 75px;
+    width: 100%;
+    box-shadow: 0px 0px 0px 0px #ffffff inset;
+    -webkit-box-shadow: 0px 0px 0px 0px #ffffff inset;
+    -moz-box-shadow: 0px 0px 0px 0px #ffffff inset;
+    -ms-box-shadow: 0px 0px 0px 0px #ffffff inset;
+    -o-box-shadow: 0px 0px 0px 0px #ffffff inset;
+      position: absolute;
+    float: left;
+    bottom: 0px;
+}
+
+
+#NavToggle
+{
+    background-image: url(icons/normal/settings.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    top: 10px;
+    right: 20px;
+}
+
+    #NavToggle:hover
+    {
+        cursor: pointer;
+        animation: SpinSettingsIcon 5s;
+        -webkit-animation: SpinSettingsIcon 5s; /* Safari and Chrome */
+    }
+
+
+@keyframes SpinSettingsIcon
+{
+    from
+    {
+        transform: rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -webkit-transform: rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -moz-transform: rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -ms-transform: rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -o-transform: rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+    }
+
+    to
+    {
+        transform: rotate(360deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -webkit-transform: rotate(360deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -moz-transform: rotate(360deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -ms-transform: rotate(360deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -o-transform: rotate(360deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+    }
+}
+
+@-webkit-keyframes SpinSettingsIcon /* Safari and Chrome */
+{
+    from
+    {
+        transform: rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -webkit-transform: rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -moz-transform: rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -ms-transform: rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -o-transform: rotate(0deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+    }
+
+    to
+    {
+        transform: rotate(360deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -webkit-transform: rotate(360deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -moz-transform: rotate(360deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -ms-transform: rotate(360deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+        -o-transform: rotate(360deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+    }
+}
+
+#UserOptions a
+{
+    width: 150px;
+    height: 56px;
+    position: absolute;
+    right: 75px;
+}
+
+.ModalHeader
+{
+    color: white;
+    background-color: #424242;
+    height: 18px;
+    padding: 8px;
+}
+
+.ModalWrapper
+{
+    margin: 20px 0px 0 10px;
+    padding: 0px 0px 0px 5px;
+}
+
+
+
+#DesignerControlsToggler, #TreeContainerToggler
+{
+    background-image: url('images/DesignerControlsGrip.png');
+    position: relative;
+    height: 97%;
+    top: 10px;
+    width: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#DesignerControlsToggler {
+     left: 1px;
+     float: left;
+
+     border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+   
+}
+
+#TreeContainerToggler {
+    right: 8px;
+     float: right;
+    top: 7px;
+       border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+     
+  }
+
+#DesignerControlsContainer,#TreeContainer
+{
+     position: fixed;
+    width: 25px;
+    height:65%;
+    top: 10%;
+    box-shadow: 0px 0px 10px 0px #000000;
+    -webkit-box-shadow: 0px 0px 10px 0px #000000;
+    -moz-box-shadow: 0px 0px 10px 0px #000000;
+    -ms-box-shadow: 0px 0px 10px 0px #000000;
+    -o-box-shadow: 0px 0px 10px 0px #000000;
+    background-image: -moz-linear-gradient(top, rgba(106, 104, 104, 1) 0%, rgba(75, 73, 73, 1) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(106, 104, 104, 1)), color-stop(100%,rgba(75, 73, 73, 1)));
+    background-image: -webkit-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: -o-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: linear-gradient(to bottom, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6A6868', endColorstr='#4B4949',GradientType=0 );
+    background-color: #343232;
+        min-width: 25px;
+ 
+    position: fixed;
+}
+
+#DesignerControlsContainer {
+   border-radius: 20px 0 0 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -ms-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+
+  margin-top: 15px !important;
+      
+     float: right;
+    right: 0px;
+  
+        padding-left: 10px;
+        
+}
+#TreeContainer {
+       border-radius: 0 20px 20px 0;
+    -webkit-border-radius:0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -ms-border-radius:0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+     margin-top: 15px !important;
+
+    float: left;
+    left: 0px;
+             
+}
+
+#Tree {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: none;
+    word-wrap: break-word;
+    float: left;
+    /*width: auto !important;*/
+    padding: 0px;
+    height: auto !important;
+}
+
+
+#Designer {
+     display: none;
+    word-wrap: break-word;
+    float: right;   
+     width: 10%;
+}

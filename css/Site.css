@@ -1,0 +1,1082 @@
+﻿body
+{
+    font: 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+a
+{
+    cursor: pointer;
+}
+
+p
+{
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
+
+.ui-datepicker
+{
+    width: 243px;
+    z-index: 1000 !important;
+}
+
+.BodyTable
+{
+    width: 100%;
+    height: 100%;
+    border-spacing: 0px;
+    word-wrap: break-word;
+    table-layout: fixed;
+}
+
+    .BodyTable tr td
+    {
+        vertical-align: top;
+    }
+
+.CreateProfileTable tr td
+{
+    vertical-align: top;
+}
+
+.MainBody
+{
+    padding: 0.5%;
+    word-wrap: break-word;
+}
+
+.LeftPanel
+{
+    width: 15%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    /*background-color: #343232;*/
+    background-color: #ffffff;
+}
+
+.RightPanel
+{
+    width: 15%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    /*background-color: #343232;*/
+    background-color: #ffffff;
+}
+
+.Footer
+{
+    /*background-image: -moz-linear-gradient(top, rgba(106, 104, 104, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(106, 104, 104, 1)), color-stop(100%,rgba(0, 0, 0, 1)));
+    background-image: -webkit-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(0, 0, 0, 1) 100%);
+    background-image: -o-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(0, 0, 0, 1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(0, 0, 0, 1) 100%);
+    background-image: linear-gradient(to bottom, rgba(106, 104, 104, 1) 0%,rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6A6868', endColorstr='#000000',GradientType=0 );*/
+    background-color: #343232;
+    height: 200px;
+    /*box-shadow: 0px 0px 20px 0px #000 inset;
+    -webkit-box-shadow: 0px 0px 20px 0px #000 inset;
+    -moz-box-shadow: 0px 0px 20px 0px #000 inset;
+    -ms-box-shadow: 0px 0px 20px 0px #000 inset;
+    -o-box-shadow: 0px 0px 20px 0px #000 inset;*/
+    background-image: -moz-linear-gradient(top, rgba(106, 104, 104, 1) 0%, rgba(75, 73, 73, 1) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(106, 104, 104, 1)), color-stop(100%,rgba(75, 73, 73, 1)));
+    background-image: -webkit-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: -o-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: linear-gradient(to bottom, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6A6868', endColorstr='#4B4949',GradientType=0 );
+}
+
+    .Footer table
+    {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        color: #fff;
+        font: 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+        text-shadow: 0 -1px 0 #7f7e7e;
+        width: 50%;
+    }
+
+        .Footer table td
+        {
+            width: 100px;
+        }
+
+.FooterFader
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(52, 50, 50, 1) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255, 255, 255, 1)), color-stop(100%,rgba(52, 50, 50, 1)));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%,rgba(52, 50, 50, 1) 100%);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%,rgba(52, 50, 50, 1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%,rgba(52, 50, 50, 1) 100%);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%,rgba(52, 50, 50, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#343232',GradientType=0 );
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    height: 10px;
+    opacity: 1;
+}
+
+.SignInOrRegister
+{
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus
+{
+    outline: none;
+}
+
+.PasswordCrackableIn
+{
+    font-size: 10px;
+    position: relative;
+    margin: 20px 0 0 20px;
+    bottom: 30px;
+}
+
+.ModalHeader
+{
+    color: white;
+    background-color: #424242;
+    height: 18px;
+    padding: 8px;
+    margin: 0;
+}
+
+.ModalWrapper
+{
+    padding: 0px;
+}
+
+    .ModalWrapper input[type='email'], input[type='password']
+    {
+        width: 290px;
+        height: 52px;
+        margin: 20px 0 0 20px;
+        outline: none;
+        font-weight: bold;
+        padding-left: 20px;
+        display: inline-block;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #555;
+        vertical-align: middle;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        background-color: white !important;
+        border: 1px solid #ccc;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        -webkit-transition: border linear .2s,box-shadow linear .2s;
+        -moz-transition: border linear .2s,box-shadow linear .2s;
+        -o-transition: border linear .2s,box-shadow linear .2s;
+        transition: border linear .2s,box-shadow linear .2s;
+    }
+
+input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus
+{
+    border-color: #e9322d;
+    -webkit-box-shadow: 0 0 6px #f8b9b7;
+    -moz-box-shadow: 0 0 6px #f8b9b7;
+    box-shadow: 0 0 6px #f8b9b7;
+}
+
+input:focus, textarea:focus, select:focus, input[type='email']:focus
+{
+    border-color: rgba(82,168,236,0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+}
+
+
+.NavigationStrip
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    background-image: -moz-linear-gradient(top, rgba(106, 104, 104, 1) 0%, rgba(75, 73, 73, 1) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(106, 104, 104, 1)), color-stop(100%,rgba(75, 73, 73, 1)));
+    background-image: -webkit-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: -o-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    background-image: linear-gradient(to bottom, rgba(106, 104, 104, 1) 0%,rgba(75, 73, 73, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6A6868', endColorstr='#4B4949',GradientType=0 );
+    background-color: #343232;
+    height: 75px;
+    border-top: 0px solid #E6E5E5;
+    border-bottom: 0px solid #ffffff;
+    border-left: 0px solid #ffffff;
+    border-right: 0px solid #ffffff;
+    box-shadow: 0px 0px 0px 0px #ffffff inset;
+    -webkit-box-shadow: 0px 0px 0px 0px #ffffff inset;
+    -moz-box-shadow: 0px 0px 0px 0px #ffffff inset;
+    -ms-box-shadow: 0px 0px 0px 0px #ffffff inset;
+    -o-box-shadow: 0px 0px 0px 0px #ffffff inset;
+    padding-left: 10px;
+}
+
+.NavigationStripFader
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    background-image: -moz-linear-gradient(top, rgba(52, 50, 50, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(52, 50, 50, 1)), color-stop(100%,rgba(255, 255, 255, 1)));
+    background-image: -webkit-linear-gradient(top, rgba(52, 50, 50, 1) 0%,rgba(255, 255, 255, 1) 100%);
+    background-image: -o-linear-gradient(top, rgba(52, 50, 50, 1) 0%,rgba(255, 255, 255, 1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(52, 50, 50, 1) 0%,rgba(255, 255, 255, 1) 100%);
+    background-image: linear-gradient(to bottom, rgba(52, 50, 50, 1) 0%,rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#343232', endColorstr='#ffffff',GradientType=0 );
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    height: 10px;
+    opacity: 1;
+}
+/* styles for validation helpers */
+
+@keyframes validationError
+{
+    from
+    {
+        box-shadow: 0px 0px 10px 0px #FF0000;
+        -webkit-box-shadow: 0px 0px 10px 0px #FF0000;
+        -moz-box-shadow: 0px 0px 10px 0px #FF0000;
+        -ms-box-shadow: 0px 0px 10px 0px #FF0000;
+        -o-box-shadow: 0px 0px 10px 0px #FF0000;
+    }
+
+    to
+    {
+        box-shadow: 0px 0px 1px 0px #FF0000;
+        -webkit-box-shadow: 0px 0px 1px 0px #FF0000;
+        -moz-box-shadow: 0px 0px 1px 0px #FF0000;
+        -ms-box-shadow: 0px 0px 1px 0px #FF0000;
+        -o-box-shadow: 0px 0px 1px 0px #FF0000;
+    }
+}
+
+@-webkit-keyframes validationError /* Safari and Chrome */
+{
+    from
+    {
+        box-shadow: 0px 0px 10px 0px #FF0000;
+        -webkit-box-shadow: 0px 0px 10px 0px #FF0000;
+        -moz-box-shadow: 0px 0px 10px 0px #FF0000;
+        -ms-box-shadow: 0px 0px 10px 0px #FF0000;
+        -o-box-shadow: 0px 0px 10px 0px #FF0000;
+    }
+
+    to
+    {
+        box-shadow: 0px 0px 0px 1px #FF0000;
+        -webkit-box-shadow: 0px 0px 1px 0px #FF0000;
+        -moz-box-shadow: 0px 0px 1px 0px #FF0000;
+        -ms-box-shadow: 0px 0px 1px 0px #FF0000;
+        -o-box-shadow: 0px 0px 1px 0px #FF0000;
+    }
+}
+
+
+.field-validation-valid
+{
+    display: none;
+}
+
+input.input-validation-error
+{
+    border-color: red;
+    background-color: #ffeaea;
+    box-shadow: 0px 0px 1px 0px #FF0000 inset;
+    -webkit-box-shadow: 0px 0px 1px 0px #FF0000 inset;
+    -moz-box-shadow: 0px 0px 1px 0px #FF0000 inset;
+    -ms-box-shadow: 0px 0px 1px 0px #FF0000 inset;
+    -o-box-shadow: 0px 0px 1px 0px #FF0000 inset;
+    animation: validationError 2s;
+    -webkit-animation: validationError 2s; /* Safari and Chrome */
+}
+
+.validation-summary-errors
+{
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+.RegistrationFailedErrorMessage
+{
+    opacity: 0;
+    width: 250px;
+}
+
+.RegistrationFailedErrorMessageAmimate
+{
+    animation: RegistrationFailed 2s;
+    -webkit-animation: RegistrationFailed 2s; /* Safari and Chrome */
+}
+
+@keyframes RegistrationFailed
+{
+    from
+    {
+        opacity: 0;
+    }
+
+    to
+    {
+        opacity: 1;
+        background-color: #ffeaea;
+        color: red;
+        text-align: center;
+    }
+}
+
+@-webkit-keyframes RegistrationFailed
+{
+    from
+    {
+        opacity: 0;
+    }
+
+    to
+    {
+        opacity: 1;
+        background-color: #ffeaea;
+        color: red;
+        text-align: center;
+    }
+}
+
+/* end of styles for validation helpers */
+
+.actions
+{
+    text-align: left;
+    box-shadow: 0px 0px 10px 5px #726E6E;
+    -webkit-box-shadow: 0px 0px 10px 5px #726E6E;
+    -moz-box-shadow: 0px 0px 10px 5px #726E6E;
+    -ms-box-shadow: 0px 0px 10px 5px #726E6E;
+    -o-box-shadow: 0px 0px 10px 5px #726E6E;
+}
+
+
+.Avatar, .MiniProfileActions, .MiniProfileActionsContainer, .MiniProfileContainer
+{
+    cursor: pointer;
+}
+
+.Avatar
+{
+    float: left;
+    /*width: 200px;*/
+    max-height: 55px;
+    max-width: 55px;
+}
+
+    .Avatar img
+    {
+        height: 55px;
+    }
+
+.MiniProfileContainer
+{
+    color: white;
+    float: right;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.MiniProfileActions
+{
+    display: none;
+    position: absolute;
+    top: 75px;
+}
+
+
+.MiniProfileActionsContainer
+{
+    width: 200px;
+    background-color: transparent;
+    color: black;
+}
+
+.MiniProfileHeaderTab
+{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 10px;
+    width: 20px;
+}
+
+
+.MiniProfileAction, .MiniProfileActionEmpty
+{
+    border-bottom: solid 1px #000000;
+    background-color: white;
+    position: relative;
+    padding: 8px;
+    cursor: default;
+}
+
+    .MiniProfileAction:hover
+    {
+        background-color: silver;
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6A6868', endColorstr='#9F9D9D',GradientType=0 );
+        box-shadow: 0px 0px 1px 0px #000 inset;
+        -webkit-box-shadow: 0px 0px 1px 0px #000 inset;
+        -moz-box-shadow: 0px 0px 1px 0px #000 inset;
+        -ms-box-shadow: 0px 0px 1px 0px #000 inset;
+        -o-box-shadow: 0px 0px 1px 0px #000 inset;
+        cursor: pointer;
+    }
+
+
+
+.RegisterLink, .LoginLink
+{
+    height: 45px;
+    display: block;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #F94710;
+    /* Internet Explorer 10 */
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    /* Safari, Opera, and Chrome */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.RegisterLink
+{
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.LoginLink
+{
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+    .RegisterLink:hover, .LoginLink:hover
+    {
+        text-shadow: 0px 0px 10px #000,0px -0px 5px #FF0000, 0px 0px 5px #FF0000;
+    }
+
+/*********************** Buttons ***********************/
+#RegisterButton
+{
+    position: fixed;
+    top: 160px;
+}
+
+#LoginButton, #RegisterButton
+{
+    float: right;
+    position: relative;
+    top: 0px;
+    right: 20px;
+}
+
+#CreateProfileButton
+{
+    top: 15px;
+    position: relative;
+}
+/********************* Buttons End *********************/
+
+.ProfileAvatar
+{
+    background-color: #EDEDED;
+    box-shadow: 0px 0px 10px 0px #000;
+    -webkit-box-shadow: 0px 0px 10px 0px #000;
+    -moz-box-shadow: 0px 0px 10px 0px #000;
+    -ms-box-shadow: 0px 0px 10px 0px #000;
+    -o-box-shadow: 0px 0px 10px 0px #000;
+}
+
+.SearchContainer
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    position: relative;
+    padding: 12px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    background-color: #F94710;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    width: 600px;
+    height: 70px;
+    opacity: 1;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0px 0px 20px 0px #ffffff inset;
+    -webkit-box-shadow: 0px 0px 20px 0px #ffffff inset;
+    -moz-box-shadow: 0px 0px 20px 0px #ffffff inset;
+    -ms-box-shadow: 0px 0px 20px 0px #ffffff inset;
+    -o-box-shadow: 0px 0px 20px 0px #ffffff inset;
+     display: none;
+}
+
+.TextBoxSearch, .TextBoxSearch:focus
+{
+    padding: 5px;
+    font: 25px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    background-color: #ffffff;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    width: 520px !important;
+    height: 50px;
+    opacity: 1;
+    box-shadow: 0px 0px 13px 0px #FE3406 inset;
+    -webkit-box-shadow: 0px 0px 13px 0px #FE3406 inset;
+    -moz-box-shadow: 0px 0px 13px 0px #FE3406 inset;
+    -ms-box-shadow: 0px 0px 13px 0px #FE3406 inset;
+    -o-box-shadow: 0px 0px 13px 0px #FE3406 inset;
+    border: none;
+}
+
+    .TextBoxSearch:focus
+    {
+        box-shadow: 0px 0px 13px 0px #FE3406 inset;
+        -webkit-box-shadow: 0px 0px 13px 0px #FE3406 inset;
+        -moz-box-shadow: 0px 0px 13px 0px #FE3406 inset;
+        -ms-box-shadow: 0px 0px 13px 0px #FE3406 inset;
+        -o-box-shadow: 0px 0px 13px 0px #FE3406 inset;
+    }
+
+.playButton
+{
+    width: 45px !important;
+    height: 45px !important;
+    float: right;
+    cursor: pointer;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    background-image: url(Images/Search/play-normal.png) !important;
+}
+
+    .playButton:hover
+    {
+        background-image: url(Images/Search/play-hover.png) !important;
+    }
+
+
+/*
+Navigation buttons    
+*/
+
+.NavigationButton
+{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 56px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-shadow: 0px 0px 10px #000;
+    color: #FFFFFF;
+    font-size: 22px;
+    text-decoration: none;
+    /* Internet Explorer 10 */
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    /* Safari, Opera, and Chrome */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    /* W3C */
+    display: box;
+    box-pack: center;
+    box-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+    .NavigationButton:hover, .MiniProfileContainer:hover
+    {
+        color: gray;
+        /*background-image: -moz-linear-gradient(top, rgba(75, 73, 73, 1) 0%, rgba(106, 104, 104, 1) 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(75, 73, 73, 1)), color-stop(100%,rgba(106, 104, 104, 1)));
+        background-image: -webkit-linear-gradient(top, rgba(75, 73, 73, 1) 0%,rgba(106, 104, 104, 1) 100%);
+        background-image: -o-linear-gradient(top, rgba(75, 73, 73, 1) 0%,rgba(106, 104, 104, 1) 100%);
+        background-image: -ms-linear-gradient(top, rgba(75, 73, 73, 1) 0%,rgba(106, 104, 104, 1) 100%);
+        background-image: linear-gradient(to bottom, rgba(75, 73, 73, 1) 0%,rgba(106, 104, 104, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4B4949', endColorstr='#6A6868',GradientType=0 );*/
+    }
+
+.MiniProfileEmail
+{
+    line-height: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+    white-space: nowrap;
+    width: 145px;
+}
+
+
+.ForumWrapper
+{
+    height: 100%;
+    border: none;
+    box-shadow: 0px 0px 20px 0px #C9C9C9 inset;
+    -webkit-box-shadow: 0px 0px 20px 0px #C9C9C9 inset;
+    -moz-box-shadow: 0px 0px 20px 0px #C9C9C9 inset;
+    -ms-box-shadow: 0px 0px 20px 0px #C9C9C9 inset;
+    -o-box-shadow: 0px 0px 20px 0px #C9C9C9 inset;
+    border-radius: 10px;
+}
+
+.loadingPanel
+{
+    position: absolute;
+    left: 47%;
+    top: 50%;
+}
+
+
+/*PIANO*/
+#piano
+{
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+    width: 936px;
+    height: 102px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px 10px 13px;
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(101, 103, 101, 1) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0, 0, 0, 0)), color-stop(100%,rgba(101, 103, 101, 1)));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%,rgba(101, 103, 101, 1) 100%);
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%,rgba(101, 103, 101, 1) 100%);
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%,rgba(101, 103, 101, 1) 100%);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%,rgba(101, 103, 101, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#656765',GradientType=0 );
+    box-shadow: 0px 0px 20px 0px #000;
+    -webkit-box-shadow: 0px 0px 20px 0px #000;
+    -moz-box-shadow: 0px 0px 20px 0px #000;
+    -ms-box-shadow: 0px 0px 20px 0px #000;
+    -o-box-shadow: 0px 0px 20px 0px #000;
+   display: none;
+}
+
+.PianoControls
+{
+    text-align: right;
+    height: 42px;
+    width: 956px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 31px;
+    background: #000;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1, rgba(0,0,0,0.5)), color-stop(0, #333));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1, #333 0);
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1, #333 0);
+    background-image: -ms-gradient(top, rgba(0, 0, 0, 0.5) 1, #333 0);
+    background-image: -o-gradient(top, rgba(0, 0, 0, 0.5) 1, #333 0);
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.5) 1, #333 0);
+    display: none;
+}
+
+.KeyNames
+{
+    float: right;
+    position: relative;
+    width: 137px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+
+#pianoBody
+{
+    width: 100%;
+    position: relative;
+    float: left;
+    z-index: 100;
+}
+
+#PianoTopLine
+{
+    background-color: gray;
+    color: #000000;
+    height: 5px;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    z-index: 100;
+}
+
+.octave
+{
+    position: relative;
+    float: left;
+}
+
+.white
+{
+    float: left;
+    width: 16px;
+    height: 120px;
+    background-color: #F4F4F4;
+    border: 1px solid #626262;
+    position: relative;
+    -moz-border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;
+    background-image: -webkit-gradient(center bottom, #FFFFFF 90%, #CCCCCC 100%);
+    -webkit-box-shadow: 0 -5px 10px -5px #000000 inset;
+    background-image: -moz-linear-gradient(center bottom, #FFFFFF 90%, #CCCCCC 100%);
+    -moz-box-shadow: 0 -5px 10px -5px #000000 inset;
+    background-image: -gradient(center bottom, #FFFFFF 90%, #CCCCCC 100%);
+    box-shadow: 0 -5px 10px -5px #000000 inset;
+    cursor: pointer;
+}
+
+    .white:hover
+    {
+        box-shadow: 0 -5px 10px 0px #8cdeff inset;
+        -webkit-box-shadow: 0 -5px 10px 0px #8cdeff inset;
+        -moz-box-shadow: 0 -5px 10px 0px #8cdeff inset;
+        -ms-box-shadow: 0 -5px 10px 0px #8cdeff inset;
+        -o-box-shadow: 0 -5px 10px 0px #8cdeff inset;
+    }
+
+.debris
+{
+    display: none;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-color: #ff00ff;
+    opacity: 1.0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+div.white.pressed
+{
+    border: 1px solid #343434;
+    background-image: -webkit-gradient(center bottom, #FFFFFF 90%, #CCCCCC 100%);
+    -webkit-box-shadow: 0px 3px 6px 2px #000000 inset;
+    background-image: -moz-linear-gradient(center bottom, #FFFFFF 90%, #CCCCCC 100%);
+    -moz-box-shadow: 0px 3px 6px 2px #000000 inset;
+    background-image: -gradient(center bottom, #FFFFFF 90%, #CCCCCC 100%);
+    box-shadow: 0px 3px 6px 2px #000000 inset;
+}
+
+.black
+{
+    float: left;
+    width: 8px;
+    height: 60px;
+    background-color: #000000;
+    border-bottom: 0px solid #000;
+    border-left: 2px solid #494949;
+    border-right: 2px solid #494949;
+    position: absolute;
+    top: 6px;
+    z-index: 100;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    border-top: 0px;
+    -moz-box-shadow: 0 -9px 10px 2px #303030 inset, 0 -7px #F7F7F7 inset;
+    -webkit-box-shadow: 0 -9px 10px 2px #303030 inset, 0 -7px #F7F7F7 inset;
+    box-shadow: 0 -9px 10px 2px #303030 inset, 0 -7px #F7F7F7 inset;
+    cursor: pointer;
+}
+
+div.black.pressed
+{
+    border: 1px solid #000000;
+    left: 1px;
+    border-top: 1px solid #626262;
+    -moz-box-shadow: 0 -9px 10px 2px #303030 inset, 0 -7px #F7F7F7 inset;
+    -webkit-box-shadow: 0 -9px 10px 2px #303030 inset, 0 -7px #F7F7F7 inset;
+    box-shadow: 0 -9px 10px 2px #303030 inset, 0 -7px #F7F7F7 inset;
+}
+
+div.flats
+{
+}
+
+    div.flats :nth-child(1)
+    {
+        margin-left: 12px;
+    }
+
+    div.flats :nth-child(2)
+    {
+        margin-left: 30px;
+    }
+
+    div.flats :nth-child(3)
+    {
+        margin-left: 66px;
+    }
+
+    div.flats :nth-child(4)
+    {
+        margin-left: 84px;
+    }
+
+    div.flats :nth-child(5)
+    {
+        margin-left: 102px;
+    }
+
+
+#toggleKeyNames,
+#toggleKeyboardKeysNames,
+#toggleAnimatedTears
+{
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+}
+
+    #toggleKeyNames.on,#toggleAnimatedTears.on
+    {
+        color: #ff9000;
+        text-shadow: 1px 1px 0 #7E6D1F;
+    }
+
+    #toggleKeyboardKeysNames.on
+    {
+        color: #9C0413;
+        text-shadow: 1px 1px 0 #B31706;
+    }
+
+.keyname,
+.kbkeyname
+{
+    font-size: 8px;
+    margin: 94px 1px 0 0;
+    cursor: pointer;
+}
+
+.white .keyname
+{
+    color: #ff9000;
+    text-shadow: 1px 1px 0 #7E6D1F;
+}
+
+.white .kbkeyname
+{
+    color: #9C0413;
+    text-shadow: 1px 1px 0 #B31706;
+}
+
+.black .keyname
+{
+    font-size: 8px;
+    margin: 5px 1px 0 0;
+    color: #ff9000;
+    text-shadow: 1px 1px 0 #7E6D1F;
+}
+
+.black .kbkeyname
+{
+    font-size: 1.6em;
+    margin: 233px 0 0 0;
+    color: #9C0413;
+    text-shadow: 1px 1px 0 #B31706;
+}
+
+div.black div.keyname,
+div.black div.kbkeyname
+{
+    margin-left: 0px;
+}
+
+#Volume
+{
+}
+
+#switchLight.off
+{
+    color: #fff;
+}
+
+#pianoNotes
+{
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    display: none;
+    z-index: 123456;
+}
+
+.oN
+{
+    bottom: 75px;
+    font-size: 3em;
+    left: 32px;
+    margin: 0 0 0 0;
+    position: absolute;
+    display: none;
+}
+
+
+
+#test
+{
+    position: absolute;
+    word-wrap: break-word;
+    top: 0px;
+    left: 0px;
+}
+
+.ColoredRaindrop
+{
+    word-wrap: break-word;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    display: block;
+    opacity: 1.0;
+    transform: rotate(45deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+    -webkit-transform: rotate(45deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+    -moz-transform: rotate(45deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+    -ms-transform: rotate(45deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+    -o-transform: rotate(45deg) scaleX(1) scaleY(1) skewX(0deg) skewY(0deg);
+    border-radius: 0px 100px 100px 100px;
+    -webkit-border-radius: 0px 100px 100px 100px;
+    -moz-border-radius: 0px 100px 100px 100px;
+    -ms-border-radius: 0px 100px 100px 100px;
+    -o-border-radius: 0px 100px 100px 100px;
+}
+
+
+
+/* cupid green (inspired by okcupid.com)
+*******************************************************************************/
+input[type="submit"], input[type="button"]
+{
+    background-color: #7fbf4d;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
+    background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
+    background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f);
+    background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f);
+    background-image: -o-linear-gradient(top, #7fbf4d, #63a62f);
+    background-image: linear-gradient(top, #7fbf4d, #63a62f);
+    border: 1px solid #63a62f;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
+    box-shadow: inset 0 1px 0 0 #96ca6d;
+    color: #fff;
+    font: bold 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    padding: 7px 0 8px 0;
+    text-align: center;
+    text-shadow: 0 -1px 0 #4c9021;
+    width: 150px;
+}
+
+    input[type="submit"]:hover, input[type="button"]:hover
+    {
+        background-color: #76b347;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
+        background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
+        background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
+        background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
+        background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
+        background-image: linear-gradient(top, #76b347, #5e9e2e);
+        -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
+        box-shadow: inset 0 1px 0 0 #8dbf67;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:active, input[type="button"]:active
+    {
+        border: 1px solid #5b992b;
+        border-bottom: 1px solid #538c27;
+        -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+        box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+    }

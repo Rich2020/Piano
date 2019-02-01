@@ -1,0 +1,29 @@
+﻿a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:focus {
+  outline: inherit;
+  outline: inherit;
+  outline-offset: inherit;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing:inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+padding-right: inherit;
+padding-left: inherit;
+}
