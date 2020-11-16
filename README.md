@@ -6,8 +6,10 @@ Best viewed in Google Chrome. I've not even tried it in another browser.
 
 # Anyway...
 
-Take a look! https://pianoplayer.000webhostapp.com/
+Take a look! https://rich2020.github.io/Piano/
 
-You can use your keyboard or mouse to hit the keys. If you press `play` a saved MIDI song will play. Can you guess what song it is?
+You can use your keyboard or mouse to hit the keys. Click 'Animated tears' if you want to stop the animationos. Click 'Piano key names' to show the key names. If you press `play/pause` a saved MIDI song will play. Can you guess what song it is?
+
+Works best in Chrome!
 
 
