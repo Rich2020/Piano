@@ -1,7 +1,7 @@
 ﻿//Initializes the midi.js object
 function InitializeMidiJS(itemsToDisplay) {
     MIDI.loader = new widgets.Loader;
-    LoadSoundfont("../Scripts/soundfonts/", itemsToDisplay);
+    LoadSoundfont("../Scripts/Soundfonts/", itemsToDisplay);
 }
 
 //Displays a message to the user: message text and message type (error,warning...etc)
